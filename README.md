@@ -1,2 +1,4 @@
-# Cosmos_Modeling
-This repository contained the Python scripts used to perform point and longitudinal prediction analyses using preprocessed electronic health record data from Epic Cosmos.
+# Cosmos Modeling
+This repository contained the Structured Query Language (SQL) scripts for extracting the data marts from the Expertly Determined De-Idnetified (EDDI) database hosted on the Cosmos server, and also the Python scripts for preprocessing and modeling the data marts that were run on the assigned project server. 
+
+The entire workflow occurred within the Cosmos Data Science Virtual Machine (DSVM) environment, which prohibits exporting line-level or patient-level data to ensure compliance with privary and security standard. VSCodium, a freely-licensed code editor developed by Mircosoft, is the main Integrated Development Environment (IDE) for Python in the DSVM. Hence, the Python scripts provided in this repository were mainly written in Python notebook file format (ipynb) to facilitate reproducibility.  
