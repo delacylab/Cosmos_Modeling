@@ -1,0 +1,14 @@
+USE [ProjectD52021F]
+GO
+
+ALTER TABLE dbo.BipolarDepression_EncLevelVars
+REBUILD PARTITION = ALL
+WITH (DATA_COMPRESSION = PAGE)
+;
+GO
+
+ALTER TABLE dbo.BipolarDepression_EncLevelVars_v2
+REBUILD PARTITION = ALL
+WITH (DATA_COMPRESSION = PAGE)
+;
+GO
