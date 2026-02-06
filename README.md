@@ -6,6 +6,13 @@ The entire workflow was conducted within the Cosmos _Data Science Virtual Machin
 # Data Extraction 
 Scripts can be found in `01_SQL_Scripts/`. 
 
+|Script name|Description|
+|---|---|
+|`01_CreateTables.sql`|Create tables that will hold extracted data.|
+|`02_MainQueries.sql`|Main block of code to extract data.|
+|`03_PageCompression.sql`|Reduce size of tables and meet the project storage limits imposed by Epic.|
+|`04_AddSAVariables.sql`|Extract the binary variable suicide attempt occurred 30 days prior to the encounter.|
+
 # Data Cleaning
 Scripts can be found in `02_Python_Scripts/01_Cleaning_Scripts/`.
 
