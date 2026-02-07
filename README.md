@@ -33,7 +33,7 @@ Scripts can be found in `02_Python_Scripts/02_Preprocessing_Scripts/`.
 |`Statistics_02_Mental_Health_Visits.ipynb`|Extract patients' information regarding their mental health visits.|
 
 # Data Modeling
-Scripts can be found in `02_Python_Scripts/03_Modeling_Scripts/`.
+Scripts can be found in `02_Python_Scripts/03_Modeling_Scripts/`. 
 
 |Script name|Description|
 |---|---|
@@ -51,11 +51,15 @@ Scripts can be found in `02_Python_Scripts/03_Modeling_Scripts/`.
 |`O06_Longitudinal_Decision_Curve_Analysis.ipynb`|Visualize the decision curve analysis for longitudinal-prediction models.|
 
 # Data Simulation
-Scripts can be found in `02_Python_Scripts/04_Simulation_Scripts/`.
+Scripts can be found in `02_Python_Scripts/04_Simulation_Scripts/`. (To be uploaded)
 
 # Data Dictionaries
 The data dictionaries can be found in `02_Python_Scripts/05_Data_Dictionaries/`.
 
+|File name|Description|
+|---|---|
+|`Raw_Data_Dictionary.xlsx`|The data dictionary for the raw features extracted from Cosmos.|
+|`Cleaned_Data_Dictionary.xlsx`|The data dictionary for the cleaned features regarding their variable type. To be uploaded.|
 <hr>
 <div align="right">
   Last update: 2025 Feburary 6, 17:04 MT (by Wayne Lam)
