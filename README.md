@@ -14,10 +14,23 @@ Scripts can be found in `01_SQL_Scripts/`.
 |`04_AddSAVariables.sql`|Extract the binary variable suicide attempt occurred 30 days prior to the encounter.|
 
 # Data Cleaning
-Scripts can be found in `02_Python_Scripts/01_Cleaning_Scripts/`.
+Scripts can be found in `02_Python_Scripts/01_Cleaning_Scripts/`. (To be uploaded)
 
 # Data Preprocessing
 Scripts can be found in `02_Python_Scripts/02_Preprocessing_Scripts/`.
+
+|Script name|Description|
+|---|---|
+|`P01_Subject_Inclusion.ipynb`|Implement the subject inclusion criteria.|
+|`P02_Stratified_Partitioning.ipynb`|Partition the dataset into training and held-out test sets.|
+|`P03a_Feature_Extraction_Patient.ipynb`|Extract the cleaned patient-level features.|
+|`P03b_Feature_Extraction_Encounter.ipynb`|Extract the cleaned encounter-level features.|
+|`P04_Winsorizing_Scaling.ipynb`|Clip and scale the feature values to facilitate subsequent model training.|
+|`P05_Imputation.ipynb`|Implement different imputation methods.|
+|`P06_Point_Data_Preparation.ipynb`|Prepare organized dataset for subsequent point-prediction modeling.|
+|`P07_Longitudinal_Data_Preparation.ipynb`|Prepare organized dataset for subsequent longitudinal-prediction modeling.|
+|`Statistics_01_Demographics.ipynb`|Extract demographic characteristics of patients.|
+|`Statistics_02_Mental_Health_Visits.ipynb`|Extract patients' information regarding their mental health visits.|
 
 # Data Modeling
 Scripts can be found in `02_Python_Scripts/03_Modeling_Scripts/`.
@@ -30,6 +43,6 @@ The data dictionaries can be found in `02_Python_Scripts/05_Data_Dictionaries/`.
 
 <hr>
 <div align="right">
-  Last update: 2025 Feburary 5, 09:44 MT (by Wayne Lam)
+  Last update: 2025 Feburary 6, 17:04 MT (by Wayne Lam)
 </div>
 <hr>
