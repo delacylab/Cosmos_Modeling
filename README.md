@@ -35,6 +35,21 @@ Scripts can be found in `02_Python_Scripts/02_Preprocessing_Scripts/`.
 # Data Modeling
 Scripts can be found in `02_Python_Scripts/03_Modeling_Scripts/`.
 
+|Script name|Description|
+|---|---|
+|`M01_Point_ANN.ipynb`|Run the artificial neural network (ANN) point-prediction modeling.|
+|`M02_Point_ElasticNet.ipynb`|Run the elastic net point-prediction modeling.|
+|`M03_Point_LogReg.ipynb`|Run the logistic regression point-prediction modeling.|
+|`M04_Point_SVM.ipynb`|Run the support vector machine (SVM) point-prediction modeling.|
+|`M05_Point_XGBoost.ipynb`|Run the extreme gradient boosting (XGBoost) point-prediction modeling.|
+|`M06_Longitudinal_RiskPath.ipynb`|Run the RiskPath longitudinal-prediction modeling.|
+|`O01_Point_Evaluation.ipynb`|Gather performance statistics for point-prediction models.|
+|`O02_Point_Evaluation_Imputation_Sensitivity.ipynb`|Gather performance statistics for point-prediction models regarding the sensitivity analysis for different imputation methods.|
+|`O03_Point_Decision_Curve_Analysis.ipynb`|Visualize the decision curve analysis for point-prediction models.|
+|`O04_Longitudinal_Evaluation.ipynb`|Gather performance statistics for longitudinal-prediction models.|
+|`O05_Longitudinal_Evaluation_Imputation_Sensitivity.ipynb`|Gather performance statistics for longitudinal-prediction models regarding the sensitivity analysis for different imputation methods.|
+|`O06_Longitudinal_Decision_Curve_Analysis.ipynb`|Visualize the decision curve analysis for longitudinal-prediction models.|
+
 # Data Simulation
 Scripts can be found in `02_Python_Scripts/04_Simulation_Scripts/`.
 
