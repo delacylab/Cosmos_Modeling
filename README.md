@@ -28,7 +28,7 @@ Scripts can be found in `02_Python_Scripts/02_Preprocessing_Scripts/`.
 |`P02_Stratified_Partitioning.ipynb`|Partition the dataset into training and held-out test sets.|
 |`P03a_Feature_Extraction_Patient.ipynb`|Extract the cleaned patient-level features.|
 |`P03b_Feature_Extraction_Encounter.ipynb`|Extract the cleaned encounter-level features.|
-|`P04_Winsorizing_Scaling.ipynb`|Clip and scale the feature values to facilitate subsequent model training.|
+|`P04_Winsorizing_Scaling.ipynb`|Clip and scale the feature values to facilitate subsequent model training. This script requires the use of the `Variable_Type_Categorization.xlsx` in `02_Python_Scripts/05_Data_Dictionaries/` to identify variable types.|
 |`P05_Imputation.ipynb`|Implement different imputation methods.|
 |`P06_Point_Data_Preparation.ipynb`|Prepare organized dataset for subsequent point-prediction modeling.|
 |`P07_Longitudinal_Data_Preparation.ipynb`|Prepare organized dataset for subsequent longitudinal-prediction modeling.|
@@ -65,9 +65,9 @@ The data dictionaries can be found in `02_Python_Scripts/05_Data_Dictionaries/`.
 |File name|Description|
 |---|---|
 |`Data_Dictionary.xlsx`|The data dictionary for the raw features extracted from Cosmos.|
-|`Variable_Type_Categorization.xlsx`|A helper spreadsheet to catgorize the variable type of the cleaned features. (To be uploaded)|
+|`Variable_Type_Categorization.xlsx`|A helper spreadsheet to catgorize the variable type of the cleaned features.|
 <hr>
 <div align="right">
-  Last update: 2025 Feburary 6, 17:04 MT (by Wayne Lam)
+  Last update: 2025 Feburary 9, 13:29 MT (by Wayne Lam)
 </div>
 <hr>
