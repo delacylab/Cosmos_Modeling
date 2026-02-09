@@ -64,8 +64,8 @@ The data dictionaries can be found in `02_Python_Scripts/05_Data_Dictionaries/`.
 
 |File name|Description|
 |---|---|
-|`Raw_Data_Dictionary.xlsx`|The data dictionary for the raw features extracted from Cosmos.|
-|`Cleaned_Data_Dictionary.xlsx`|The data dictionary for the cleaned features regarding their variable type. (To be uploaded)|
+|`Data_Dictionary.xlsx`|The data dictionary for the raw features extracted from Cosmos.|
+|`Variable_Type_Categorization.xlsx`|A helper spreadsheet to catgorize the variable type of the cleaned features. (To be uploaded)|
 <hr>
 <div align="right">
   Last update: 2025 Feburary 6, 17:04 MT (by Wayne Lam)
