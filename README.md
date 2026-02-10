@@ -60,10 +60,12 @@ Scripts can be found in `02_Python_Scripts/03_Modeling_Scripts/`.
 |`O06_Longitudinal_Decision_Curve_Analysis.ipynb`|Visualize the decision curve analysis for longitudinal-prediction models.|
 
 # Data Simulation
-Scripts can be found in `02_Python_Scripts/04_Simulation_Scripts/`. (To be uploaded)
+Scripts can be found in `02_Python_Scripts/04_Simulation_Scripts/`. These scripts synthesize preprocessed datasets for point-/longitudinal-prediction modeling. 
+(To be uploaded)
 
 |Script name|Description|
-|---|---|
+|`S01_Simulate_Point.ipynb'|Simulate a dataset for point-prediction modeling.|
+|`S02_Simulate_Longitudinal.ipynb'|Simulate a dataset for longitudinal-prediction modeling.|
 
 # Data Dictionaries
 The data dictionaries can be found in `02_Python_Scripts/05_Data_Dictionaries/`.
