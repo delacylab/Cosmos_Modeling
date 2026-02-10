@@ -23,7 +23,7 @@ Scripts can be found in `02_Python_Scripts/01_Cleaning_Scripts/`.
 |`C03_Encode_Encounter_Variables.ipynb`|Encode the encounter-level variables.|
 |`C04_Clean_Patient_Variables.ipynb`|Clean the patient-level variables.|
 |`C05_Clean_Encounter_Variables.ipynb`|Clean the encounter-level variables.|
-|`C06_Date_Adjustment.ipynb`|Adjust the date-based variables by referencing to the birth date or the encounter date of the patients.|
+|`C06_Date_Adjustment.ipynb`|Offset the date variables by referencing to the birth date or the encounter date of the patients.|
 
 # Data Preprocessing
 Scripts can be found in `02_Python_Scripts/02_Preprocessing_Scripts/`.
