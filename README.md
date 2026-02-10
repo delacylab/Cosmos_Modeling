@@ -18,6 +18,12 @@ Scripts can be found in `02_Python_Scripts/01_Cleaning_Scripts/`. (To be uploade
 
 |Script name|Description|
 |---|---|
+|`C01_Data_Tranfer.ipynb`|Download the data mart extracted by the SQL scripts into parquet data files.|
+|`C02_Encode_Patient_Variables.ipynb`|Encode the patient-level variables.|
+|`C03_Encode_Encounter_Variables.ipynb`|Encode the encounter-level variables.|
+|`C04_Clean_Patient_Variables.ipynb`|Clean the patient-level variables.|
+|`C05_Clean_Encounter_Variables.ipynb`|Clean the encounter-level variables.|
+|`C06_Date_Adjustment.ipynb`|Adjust the date-based variables by referencing to the birth date or the encounter date of the patients.|
 
 # Data Preprocessing
 Scripts can be found in `02_Python_Scripts/02_Preprocessing_Scripts/`.
@@ -68,6 +74,6 @@ The data dictionaries can be found in `02_Python_Scripts/05_Data_Dictionaries/`.
 |`Variable_Type_Categorization.xlsx`|A helper spreadsheet to catgorize the variable type of the cleaned features.|
 <hr>
 <div align="right">
-  Last update: 2025 Feburary 9, 13:29 MT (by Wayne Lam)
+  Last update: 2025 Feburary 10, 15:21 MT (by Wayne Lam)
 </div>
 <hr>
