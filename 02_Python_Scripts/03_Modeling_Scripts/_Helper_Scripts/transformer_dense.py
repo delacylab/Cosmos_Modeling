@@ -375,9 +375,25 @@ def train_tf(M, X_train, y_train, X_val, y_val, cost_mul=None):
 ########################################################################################################################
 # Define a function to evaluate a transformer model
 ########################################################################################################################
+
+
 def eval_tf(M, X_test, y_test, prefix=''):
     t0 = time()
     M.eval()
+    X_np = np.asarray(X_test)
+    if X_np.dtype != np.float32:
+        X_np = X_np.astype(np.float32, copy=False)
+    bs = 512
+    probs_list = []
+    with torch.no_grad():
+        for i in range(0, X_np.shape[0], bs):
+            xb = torch.from_numpy(X_np[i:i + bs])
+            logits = M(xb).view(-1)
+            probs_list.append(torch.sigmoid(logits))
+
+        y_prob = torch.cat(probs_list, dim=0)
+        t1 = time()
+
     with torch.no_grad():
         device = next(M.parameters()).device
         X_test = torch.tensor(np.array(X_test, dtype=np.float32)).to(device)
