@@ -65,8 +65,8 @@ Scripts can be found in `02_Python_Scripts/04_Simulation_Scripts/`. These script
 
 |Script name|Description|
 |---|---|
-|`S01_Simulate_Point.ipynb'|Simulate a dataset for point-prediction modeling.|
-|`S02_Simulate_Longitudinal.ipynb'|Simulate a dataset for longitudinal-prediction modeling.|
+|`S01_Simulate_Point.ipynb`|Simulate a dataset for point-prediction modeling.|
+|`S02_Simulate_Longitudinal.ipynb`|Simulate a dataset for longitudinal-prediction modeling.|
 
 # Data Dictionaries
 The data dictionaries can be found in `02_Python_Scripts/05_Data_Dictionaries/`.
