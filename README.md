@@ -14,7 +14,7 @@ Scripts can be found in `01_SQL_Scripts/`.
 |`04_AddSAVariables.sql`|Extract the additional binary variable suicide attempt occurred 30 days prior to the encounter.|
 
 # Data Cleaning
-Scripts can be found in `02_Python_Scripts/01_Cleaning_Scripts/`. (To be uploaded)
+Scripts can be found in `02_Python_Scripts/01_Cleaning_Scripts/`.
 
 |Script name|Description|
 |---|---|
