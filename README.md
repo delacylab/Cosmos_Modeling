@@ -1,12 +1,12 @@
 # Cosmos Modeling
 
-This repository provides the script to reproduce the modeling results provided in the manuscript _Precision stratification of risk for suicidal behavior in people with bipolar depression_ (de Lacy et al., 2026). The studied cohort concerns patients in the Cosmos database who was diagnosed with bipolar depression in 2016-2024. The predictive outcome is the 30-day risk of suicidal behavior among the patients in the cohort.   
+This repository provides the scripts required to reproduce the modeling results presented in the manuscript _Precision stratification of risk for suicidal behavior in people with bipolar depression_ (de Lacy et al., 2026). The study cohort consists of patients in the Cosmos database who were diagnosed with bipolar depression between 2016 and 2024. The predictive outcome is 30-day risk of suicidal behavior within this cohort.   
 
-This repository contains Structured Query Language (SQL) scripts used to extract data marts from the _Expertly Determined De-Idnetified_ (EDDI) database hosted on the Cosmos server, as well as Python scripts for cleaning, preprocessing and modeling these data marts on the assigned project server. 
+This repository icludes Structured Query Language (SQL) scripts used to extract data marts from the _Expertly Determined De-Idnetified_ (EDDI) database hosted on the Cosmos server, as well as Python scripts for cleaning, preprocessing and modeling these data marts on the assigned project server. 
 
-The entire workflow was conducted within the Cosmos _Data Science Virtual Machine_ (DSVM) environment, which prohibits the export of line-level data to ensure compliance with privacy and security standard. _VSCodium_, a freely licensed code editor developed by Mircosoft, serves as the primary Integrated Development Environment (IDE) for Python within the DSVM. Accordingly, most Python scripts in this repository are written in Jupyter Notebook (.ipynb) format to facilitate transparency and reproducibility. Python 3.12.10 was used in the Cosmos DSVM environment (with pre-installed packages).   
+The entire workflow was conducted within the Cosmos _Data Science Virtual Machine_ (DSVM) environment, which prohibits the export of line-level data to ensure compliance with privacy and security standard. _VSCodium_, a freely licensed code editor developed by Mircosoft, serves as the primary Integrated Development Environment (IDE) for Python within the DSVM. Accordingly, most Python scripts in this repository are written in Jupyter Notebook (.ipynb) format to facilitate transparency and reproducibility. Python 3.12.10 was used within the Cosmos DSVM environment (with pre-installed packages).   
 
-The scripts provided in this repository should be run in the exact order (as shown below) to reproduce the modeling results.
+To reporoduce the modeling results, the scripts in this repository must be executed in the exact order shown below.
 
 # Data Extraction 
 Scripts can be found in `01_SQL_Scripts/`. 
@@ -82,6 +82,6 @@ The data dictionaries can be found in `02_Python_Scripts/05_Data_Dictionaries/`.
 
 <hr>
 <div align="right">
-  Last update: 2025 Feburary 10, 18:19 MT (by Wayne Lam)
+  Last update: 2025 Feburary 11, 09:04 MT (by Wayne Lam)
 </div>
 <hr>
