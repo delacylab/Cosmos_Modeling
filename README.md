@@ -1,7 +1,12 @@
 # Cosmos Modeling
+
+This repository provides the script to reproduce the modeling results provided in the manuscript _Precision stratification of risk for suicidal behavior in people with bipolar depression_ (de Lacy et al., 2026). The studied cohort concerns patients in the Cosmos database who was diagnosed with bipolar depression in 2016-2024. The predictive outcome is the 30-day risk of suicidal behavior among the patients in the cohort.   
+
 This repository contains Structured Query Language (SQL) scripts used to extract data marts from the _Expertly Determined De-Idnetified_ (EDDI) database hosted on the Cosmos server, as well as Python scripts for cleaning, preprocessing and modeling these data marts on the assigned project server. 
 
-The entire workflow was conducted within the Cosmos _Data Science Virtual Machine_ (DSVM) environment, which prohibits the export of line-level data to ensure compliance with privacy and security standard. _VSCodium_, a freely licensed code editor developed by Mircosoft, serves as the primary Integrated Development Environment (IDE) for Python within the DSVM. Accordingly, most Python scripts in this repository are provided in Jupyter Notebook (.ipynb) format to facilitate transparency and reproducibility. Python 3.12.10 was used in the Cosmos DSVM environment (with pre-installed packages).   
+The entire workflow was conducted within the Cosmos _Data Science Virtual Machine_ (DSVM) environment, which prohibits the export of line-level data to ensure compliance with privacy and security standard. _VSCodium_, a freely licensed code editor developed by Mircosoft, serves as the primary Integrated Development Environment (IDE) for Python within the DSVM. Accordingly, most Python scripts in this repository are written in Jupyter Notebook (.ipynb) format to facilitate transparency and reproducibility. Python 3.12.10 was used in the Cosmos DSVM environment (with pre-installed packages).   
+
+The scripts provided in this repository should be run in the exact order (as shown below) to reproduce the modeling results.
 
 # Data Extraction 
 Scripts can be found in `01_SQL_Scripts/`. 
@@ -59,7 +64,7 @@ Scripts can be found in `02_Python_Scripts/03_Modeling_Scripts/`.
 |`O05_Longitudinal_Evaluation_Imputation_Sensitivity.ipynb`|Gather performance statistics for longitudinal-prediction models regarding the sensitivity analysis for different imputation methods.|
 |`O06_Longitudinal_Decision_Curve_Analysis.ipynb`|Visualize the decision curve analysis for longitudinal-prediction models.|
 
-# Data Simulation
+# Data Simulation (Optional)
 Scripts can be found in `02_Python_Scripts/04_Simulation_Scripts/`. These scripts synthesize preprocessed datasets for point-/longitudinal-prediction modeling.
 
 |Script name|Description|
@@ -67,7 +72,7 @@ Scripts can be found in `02_Python_Scripts/04_Simulation_Scripts/`. These script
 |`S01_Simulate_Point.ipynb`|Simulate a dataset for point-prediction modeling.|
 |`S02_Simulate_Longitudinal.ipynb`|Simulate a dataset for longitudinal-prediction modeling.|
 
-# Data Dictionaries
+# Data Dictionaries (Optional)
 The data dictionaries can be found in `02_Python_Scripts/05_Data_Dictionaries/`.
 
 |File name|Description|
@@ -77,6 +82,6 @@ The data dictionaries can be found in `02_Python_Scripts/05_Data_Dictionaries/`.
 
 <hr>
 <div align="right">
-  Last update: 2025 Feburary 10, 18:10 MT (by Wayne Lam)
+  Last update: 2025 Feburary 10, 18:19 MT (by Wayne Lam)
 </div>
 <hr>
