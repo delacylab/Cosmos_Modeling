@@ -23,7 +23,7 @@ Scripts can be found in `02_Python_Scripts/01_Cleaning_Scripts/`.
 
 |Script name|Description|
 |---|---|
-|`C01_Data_Tranfer.ipynb`|Download the data mart extracted by the SQL scripts into parquet data files.|
+|`C01_Data_Tranfer.ipynb`|Download the data marts extracted by the SQL scripts into parquet data files.|
 |`C02_Encode_Patient_Variables.ipynb`|Encode the patient-level variables.|
 |`C03_Encode_Encounter_Variables.ipynb`|Encode the encounter-level variables.|
 |`C04_Clean_Patient_Variables.ipynb`|Clean the patient-level variables.|
@@ -82,6 +82,6 @@ The data dictionaries can be found in `02_Python_Scripts/05_Data_Dictionaries/`.
 
 <hr>
 <div align="right">
-  Last update: 2025 Feburary 11, 09:04 MT (by Wayne Lam)
+  Last update: 2025 Feburary 12, 09:04 MT (by Wayne Lam)
 </div>
 <hr>
